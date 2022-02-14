@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="main">
+        <h1>Simple Calculator</h1>
+        <form id="myForm">
+            <section class="section-inputs">
+                <div class="numbers">
+                    <input type="number" name="input-number" id="first-number">    
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label for="first-number">First number</label>
+                </div>
+                <div class="numbers">
+                    <input type="number" name="input-number" id="second-number">  
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label for="second-number">Second number</label>
+                </div>
+            </section>
+            <div>
+                <p id="result" class="result">0</p>  
+            </div>
+            <button type="number" id="clear" class="custom-btn btn-7"><span>c</span></button>
+        </form>
+
+        <section class="section-buttons">
+            <button type="submit" id="suma" class="custom-btn btn-7"><span>+</span></button>
+            <button type="submit" id="resta" class="custom-btn btn-7"><span>-</span></button>
+            <button type="submit" id="multi" class="custom-btn btn-7"><span>x</span></button>
+            <button type="submit" id="divi" class="custom-btn btn-7"><span>/</span></button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
